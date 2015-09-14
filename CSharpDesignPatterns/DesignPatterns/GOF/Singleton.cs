@@ -32,6 +32,12 @@ namespace DesignPatterns.GOF
         # region Implementacion del singleton
 
         // Adicionalmente puedes agregar tantos miembros como te sean necesarios   
+        public string SayHello()
+        {
+            string returnText;
+            returnText = "Hello World!";
+            return returnText;
+        }
 
         # endregion
     }

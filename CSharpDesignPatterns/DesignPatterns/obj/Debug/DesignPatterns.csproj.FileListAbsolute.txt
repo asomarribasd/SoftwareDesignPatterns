@@ -1,0 +1,4 @@
+C:\Personal\Proyectos\GitHub\SoftwareDesignPatterns\CSharpDesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.dll
+C:\Personal\Proyectos\GitHub\SoftwareDesignPatterns\CSharpDesignPatterns\DesignPatterns\bin\Debug\DesignPatterns.pdb
+C:\Personal\Proyectos\GitHub\SoftwareDesignPatterns\CSharpDesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.dll
+C:\Personal\Proyectos\GitHub\SoftwareDesignPatterns\CSharpDesignPatterns\DesignPatterns\obj\Debug\DesignPatterns.pdb

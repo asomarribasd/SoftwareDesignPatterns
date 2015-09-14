@@ -1,0 +1,7 @@
+C:\Personal\Proyectos\GitHub\SoftwareDesignPatterns\CSharpDesignPatterns\DesignPatternsTest\bin\Debug\DesignPatternsTest.dll
+C:\Personal\Proyectos\GitHub\SoftwareDesignPatterns\CSharpDesignPatterns\DesignPatternsTest\bin\Debug\DesignPatternsTest.pdb
+C:\Personal\Proyectos\GitHub\SoftwareDesignPatterns\CSharpDesignPatterns\DesignPatternsTest\bin\Debug\DesignPatterns.dll
+C:\Personal\Proyectos\GitHub\SoftwareDesignPatterns\CSharpDesignPatterns\DesignPatternsTest\bin\Debug\DesignPatterns.pdb
+C:\Personal\Proyectos\GitHub\SoftwareDesignPatterns\CSharpDesignPatterns\DesignPatternsTest\obj\Debug\DesignPatternsTest.csprojResolveAssemblyReference.cache
+C:\Personal\Proyectos\GitHub\SoftwareDesignPatterns\CSharpDesignPatterns\DesignPatternsTest\obj\Debug\DesignPatternsTest.dll
+C:\Personal\Proyectos\GitHub\SoftwareDesignPatterns\CSharpDesignPatterns\DesignPatternsTest\obj\Debug\DesignPatternsTest.pdb
