@@ -12,8 +12,8 @@ namespace DesignPatternsTest
         {
             Director director = new Director();
 
-            Builder b1 = new ConcreteBuilder1();
-            Builder b2 = new ConcreteBuilder2();
+            ProductBuilder b1 = new ProductBuilderA();
+            ProductBuilder b2 = new ProductBuilderB();
 
             // Construct two products
             director.Construct(b1);

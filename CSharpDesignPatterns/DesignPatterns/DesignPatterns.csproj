@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GOF\Builder.cs" />
+    <Compile Include="GOF\Prototype.cs" />
     <Compile Include="GOF\Singleton.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

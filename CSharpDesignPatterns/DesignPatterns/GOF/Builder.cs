@@ -9,7 +9,7 @@ namespace DesignPatterns.GOF
     /// <summary>
     /// The 'Builder' abstract class
     /// </summary>
-    public abstract class Builder
+    public abstract class ProductBuilder
     {
         public abstract void BuildPartA();
         public abstract void BuildPartB();
@@ -17,12 +17,12 @@ namespace DesignPatterns.GOF
     }
 
     /// <summary>
-    /// The 'Director' class
+    /// The 'Director' class, handle the steps of the build process
     /// </summary>
     public class Director
     {
-        // Builder uses a complex series of steps
-        public void Construct(Builder builder)
+        // Builder have the same steps, but the implementation of each step is different
+        public void Construct(ProductBuilder builder)
         {
             builder.BuildPartA();
             builder.BuildPartB();
@@ -30,20 +30,20 @@ namespace DesignPatterns.GOF
     }
 
     /// <summary>
-    /// The 'ConcreteBuilder1' class
+    /// The 'ProductBuilderA' class is an implemntation of a Product Builder
     /// </summary>
-    public class ConcreteBuilder1 : Builder
+    public class ProductBuilderA : ProductBuilder
     {
         private Product _product = new Product();
 
         public override void BuildPartA()
         {
-            _product.Add("PartA");
+            _product.Add("Component A");
         }
 
         public override void BuildPartB()
         {
-            _product.Add("PartB");
+            _product.Add("Component C");
         }
 
         public override Product GetProductCreated()
@@ -53,20 +53,20 @@ namespace DesignPatterns.GOF
     }
 
     /// <summary>
-    /// The 'ConcreteBuilder2' class
+    /// The 'ProductBuilderB' class class is an implemntation of a Product Builder
     /// </summary>
-    public class ConcreteBuilder2 : Builder
+    public class ProductBuilderB : ProductBuilder
     {
         private Product _product = new Product();
 
         public override void BuildPartA()
         {
-            _product.Add("PartX");
+            _product.Add("Component D");
         }
 
         public override void BuildPartB()
         {
-            _product.Add("PartY");
+            _product.Add("Component T");
         }
 
         public override Product GetProductCreated()
@@ -76,22 +76,24 @@ namespace DesignPatterns.GOF
     }
 
     /// <summary>
-    /// The 'Product' class
+    /// The 'Product' class to be builded, in this case a container of components
     /// </summary>
     public class Product
     {
-        private List<string> _parts = new List<string>();
+        private List<string> _components = new List<string>();
 
-        public void Add(string part)
+        public void Add(string components)
         {
-            _parts.Add(part);
+            _components.Add(components);
         }
 
         public void Show()
         {
-            Console.WriteLine("\nProduct Parts -------");
-            foreach (string part in _parts)
-                Console.WriteLine(part);
+            Console.WriteLine("\nProduct Components -------");
+            foreach (string component in _components)
+            { 
+                Console.WriteLine(component);
+            }
         }
     }
 
