@@ -95,6 +95,11 @@ namespace DesignPatterns.GOF
                 Console.WriteLine(component);
             }
         }
+
+        public List<string> Components
+        {
+            get { return this._components; }
+        }
     }
 
 }
