@@ -39,17 +39,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GOF\Behavioral\Command.cs" />
+    <Compile Include="GOF\Behavioral\Interpreter.cs" />
+    <Compile Include="GOF\Behavioral\Iterator.cs" />
+    <Compile Include="GOF\Behavioral\Mediator.cs" />
+    <Compile Include="GOF\Behavioral\Memento.cs" />
+    <Compile Include="GOF\Behavioral\Observer.cs" />
+    <Compile Include="GOF\Behavioral\Strategy.cs" />
+    <Compile Include="GOF\Behavioral\Visitor.cs" />
     <Compile Include="GOF\Creational\AbstractFactory.cs" />
     <Compile Include="GOF\Creational\Builder.cs" />
     <Compile Include="GOF\Creational\FactoryMethod.cs" />
     <Compile Include="GOF\Creational\Prototype.cs" />
     <Compile Include="GOF\Creational\Singleton.cs" />
+    <Compile Include="GOF\Structural\Adapter.cs" />
+    <Compile Include="GOF\Structural\Bridge.cs" />
+    <Compile Include="GOF\Structural\Composite.cs" />
+    <Compile Include="GOF\Structural\Decorator.cs" />
+    <Compile Include="GOF\Structural\Facade.cs" />
+    <Compile Include="GOF\Structural\Flyweight.cs" />
+    <Compile Include="GOF\Structural\Proxy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="GOF\Behavioral\" />
-    <Folder Include="GOF\Structural\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
