@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DesignPatterns.GOF;
+using DesignPatterns.GOF.Creational;
 
 namespace DesignPatternsTest
 {
@@ -23,9 +23,9 @@ namespace DesignPatternsTest
             director.Construct(b2);
             Product p2 = b2.GetProductCreated();
             p2.Show();
+
             Assert.IsTrue(p2.Components.Count == 2);
-            // Wait for user
-            //Console.ReadKey();
+
         }
     }
 }

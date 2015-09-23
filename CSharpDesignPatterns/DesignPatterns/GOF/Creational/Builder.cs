@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.GOF
+namespace DesignPatterns.GOF.Creational
 {
     /// <summary>
     /// The 'Builder' abstract class

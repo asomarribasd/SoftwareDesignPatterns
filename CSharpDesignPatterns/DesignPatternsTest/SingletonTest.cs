@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DesignPatterns.GOF;
+using DesignPatterns.GOF.Creational;
 
 namespace DesignPatternsTest
 {
