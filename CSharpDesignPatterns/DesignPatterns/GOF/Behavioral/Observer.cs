@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.GOF.Behavioral
 {
+    /// <summary>
+    /// Observer Pattern
+    /// </summary>
     public class Observer
     {
     }
